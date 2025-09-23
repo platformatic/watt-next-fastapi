@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/python/0.7.0.json",
+  "module": "@platformatic/python",
+  "python": {
+    "docroot": "public",
+    "appTarget": "main:app"
+  },
+  "server": {
+    "hostname": "{PLT_SERVER_HOSTNAME}",
+    "port": "{PORT}",
+    "logger": {
+      "level": "{PLT_SERVER_LOGGER_LEVEL}"
+    }
+  },
+  "watch": true
+}
