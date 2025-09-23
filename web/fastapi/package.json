@@ -1,0 +1,14 @@
+{
+  "name": "fastapi-service",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "platformatic start"
+  },
+  "dependencies": {
+    "@platformatic/python": "github:platformatic/python"
+  },
+  "engines": {
+    "node": "^22.18.0"
+  }
+}
