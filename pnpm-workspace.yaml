@@ -1,0 +1,9 @@
+packages:
+  - web/*
+
+onlyBuiltDependencies:
+  - '@platformatic/python-node-darwin-arm64'
+  - '@tailwindcss/oxide'
+  - msgpackr-extract
+  - protobufjs
+  - sharp
