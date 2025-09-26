@@ -4,16 +4,10 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@platformatic/php-node': link:../../../Library/pnpm/global/5/node_modules/@platformatic/php-node
-
 importers:
 
   .:
     dependencies:
-      '@platformatic/php-node':
-        specifier: link:../../../Library/pnpm/global/5/node_modules/@platformatic/php-node
-        version: link:../../../Library/pnpm/global/5/node_modules/@platformatic/php-node
       '@platformatic/runtime':
         specifier: ^2.64.0
         version: 2.70.1
