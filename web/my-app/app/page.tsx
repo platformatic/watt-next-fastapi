@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 // FastAPI backend URL
-const FASTAPI_API_URL = 'http://localhost:3042/api';
+const FASTAPI_API_URL = globalThis.platformatic ? 'http://fastapi.plt.local' : 'http://localhost:3042/api';
 
 // Define Article type
 interface Article {
